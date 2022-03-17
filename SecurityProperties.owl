@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#"
+     xml:base="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Asymmetric_Key -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Asymmetric_Key">
+        <rdfs:subClassOf rdf:resource="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Cryptographic_Function"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Cryptographic_Function -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Cryptographic_Function"/>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Diffie-Hellman -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Diffie-Hellman">
+        <rdfs:subClassOf rdf:resource="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Cryptographic_Function"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Hash_Function -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Hash_Function">
+        <rdfs:subClassOf rdf:resource="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Cryptographic_Function"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Identity_Certificate -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Identity_Certificate"/>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Knowledge -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Knowledge"/>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Message -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Message"/>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Message_Authentication_Code -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Message_Authentication_Code">
+        <rdfs:subClassOf rdf:resource="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Cryptographic_Function"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Nounce -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Nounce"/>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Principal -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Principal"/>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Session -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Session"/>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Signature -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Signature">
+        <rdfs:subClassOf rdf:resource="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Cryptographic_Function"/>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Symmetric_Key -->
+
+    <owl:Class rdf:about="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Symmetric_Key">
+        <rdfs:subClassOf rdf:resource="https://github.com/morpheuscypher/SecurityProperties/blob/main/SecurityProperties.owl#Cryptographic_Function"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
